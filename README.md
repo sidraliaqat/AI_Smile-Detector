@@ -1,1 +1,4 @@
 # AI_Smile-Detector
+The **Smile Detector** project in **Python** uses computer vision techniques to detect smiles in real-time through a camera feed. It employs the **OpenCV** library to process images and the **Haar Cascade Classifiers** for face and smile detection. The process starts by capturing video frames from the camera and converting them to grayscale for better performance. The face is first detected using the pre-trained face classifier, followed by detecting smiles within the detected face region.
+
+Once a smile is detected, a bounding box is drawn around the face and smile, and an alert or message (such as "Smile detected!") is displayed. The project is designed to be lightweight, running efficiently on most systems with minimal processing delay. The system can be integrated with real-time applications, such as interactive devices or emotion recognition systems, to trigger actions based on smile detection.
